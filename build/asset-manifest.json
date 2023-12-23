@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/yourusername/content-generator/static/js/main.6ec40ad8.js",
+    "index.html": "/yourusername/content-generator/index.html",
+    "main.6ec40ad8.js.map": "/yourusername/content-generator/static/js/main.6ec40ad8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6ec40ad8.js"
+  ]
+}
