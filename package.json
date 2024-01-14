@@ -12,14 +12,25 @@
   "author": "Cardigan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cardigan/content-generator/issues"
+    "url": "https://github.com/Red-Cardigan/ava_postgen.git"
   },
-  "homepage": "https://github.com/Cardigan/content-generator#readme",
+  "homepage": ".",
   "dependencies": {
-    "axios": "^1.6.2",
+    "axios": "^1.6.3",
+    "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "eventsource": "^2.0.2",
+    "huggingface": "^1.4.0",
+    "modal": "^1.2.0",
+    "openai": "^4.24.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.9.2",
+    "react-csv": "^2.2.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1"
+    "react-markdown": "^5.0.3",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.3",
+    "virtualenv": "^0.3.1"
   },
   "browserslist": {
     "production": [

@@ -1,0 +1,8 @@
+{
+    "NOTES_1_FT": "Follow these steps to add detail to your notes and create instructions for a compelling personal account:\n\n0. Add Content: Add new events to transition from one moment to the next. Ensure these fit with the current events in the plot.\n1. Determine Structure and Pacing: Devise an engaging structure to present the events in. Detail how pacing will vary to keep the reader engaged.\n2. Determine Tone: Describe the narrative tone and dialogue (serious, humorous, etc.) used in each section.\n3. Determine Style:  Provide specific detail on how vocabulary, punctuation, and sentence structure will be used to add depth and character.\n4. Use a Literary Device: Explain how one literary device such as analogy, allegory, hyperbole, allusion, foreshadowing or other could be used. Be specific about how it contributes to the overall impact or message of the post.",
+    "NOTES_2": "Use the provided notes to create paragraph-by-paragraph instructions for an insightful and compelling blog post written by Ava.\n\n{NOTES_1_output}",
+    "TITLE_TAGS_FT": "{NOTES_2_response}\n\nGenerate a short catchy title, description, and relevant tags for the finished post by Ava. Provide your answer in JSON format.\n\n{\n    {\"title\": \"short catchy title\"}, \n    {\"description\": \"short informative description\"},\n    {\"tags\": \"[tag1, tag2, tag3]\"}\n}",
+    "BLOG_FT": "Use the content below to write a blog post called \"{title}\" with the description \"{description}\" using tags \"{tags}\".\n\n{NOTES_2_response}",
+    "INSTAGRAM": "",
+    "TWITTER": ""
+}

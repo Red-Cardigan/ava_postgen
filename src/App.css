@@ -1,0 +1,72 @@
+/* App.css */
+.header {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Arial;
+  }
+  
+  .content {
+    font-family: 'Courier New';
+  }
+
+  /* App.css */
+.container {
+  background-color: #f0f0f0; /* subtle background color */
+}
+
+.button {
+  background-color: #007bff; /* contrasting color */
+  border-color: #007bff; /* same as background for a uniform look */
+}
+
+.button:hover {
+  background-color: #0056b3; /* darker shade on hover */
+  border-color: #0056b3; /* same as background for a uniform look */
+}
+
+/* App.css */
+.form-group {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.input-field {
+  border: 2px solid #007bff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.custom-checkbox .form-check-input:not(:checked) {
+  background-image: url('unchecked.png');
+}
+
+.custom-checkbox .form-check-input:checked {
+  background-image: url('checked.png');
+}
+
+.form-group.custom-checkbox {
+  align-items: flex-start;
+}
+
+.form-group.custom-checkbox div {
+  text-align: left;
+}
+
+.button:hover {
+  transition: background-color 0.3s ease;
+}
+
+.save-button {
+  margin-top: 20px;
+}

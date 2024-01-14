@@ -1,0 +1,7 @@
+Flask==1.1.2
+openai==0.27.0
+requests==2.25.1
+sqlalchemy==1.4.22
+flask-sqlalchemy==2.5.1
+gunicorn==20.1.0
+python-dotenv==0.19.1
